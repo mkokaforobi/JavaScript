@@ -4,22 +4,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    background-color: #f3e6d8ff;
+    width: 100%;
     
 }
 
-.outer-container {
-    background-color: #fff;
-    height: 60px;
-    width: 50px;
+
+
+
+body {
+    background-color: #f3e5d8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px 15px;
+    color: #555;
+    align-items: center;
+}
+
+
+
+.recipe-card {
+    background-color: white;
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.food-image img {
+    width: 30%;
+    height: 100px;
+    object-fit: center;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: #252525;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 10px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.preparation {
+    background-color: #fff7fb;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+.preparation h3 {
+    color: #77334d;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.preparation ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #855b4b;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+section ul,
+section ol {
+    font-size: 10px;
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+section li {
+    padding-left: 3px;
+    margin-bottom: 3px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    margin: 15px 0;
+}
+
+section p {
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+@media (max-width: 400px) {
+    .recipe-card {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
 }
 
